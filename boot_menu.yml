@@ -1,5 +1,5 @@
 ublue_variants:
-  - label: blue-build/template
+  - label: aoxbmin/my-kde-rpm-ostree
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: blue-build/template
+      - label: my-kde-rpm-ostree
