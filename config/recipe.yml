@@ -20,10 +20,14 @@ modules:
   - type: rpm-ostree
     repos: # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
-      # - micro
-      # - starship
+      - fish
+      - micro
+      - distrobox
+      - syncthing
+      - jetbrains-mono-fonts
+      - kate
     remove:
-      - firefox # default firefox removed in favor of flatpak
+      - firefox # default firefox removed
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
 
   - type: default-flatpaks
@@ -34,7 +38,57 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        - org.mozilla.firefox
+        - io.gitlab.librewolf-community
+        - com.github.Eloston.UngoogledChromium
+
+        - org.zotero.Zotero
+
+        - org.gajim.Gajim
+        - sm.puri.Chatty
+        - org.kde.neochat
+        - org.kde.tokodon
+
+        - org.mypaint.MyPaint
+        - org.kde.krita
+        - org.blender.Blender
+        - org.inkscape.Inkscape
+        - io.github.guillaumechereau.Goxel
+        
+        - org.mapeditor.Tiled
+        - org.godotengine.GodotSharp
+        - com.github.libresprite.LibreSprite
+
+        - io.github.nuttyartist.notes
+        - com.github.flxzt.rnote
+        - com.github.xournalpp.xournalpp
+
+        - com.helix_editor.Helix
+        - dev.lapce.lapce
+        - org.kde.yakuake
+        - org.kde.kommit
+
+        - app.organicmaps.desktop
+        - org.claws_mail.Claws-Mail
+        - io.mpv.Mpv
+        - org.kde.isoimagewriter
+        - org.zealdocs.Zeal
+        - com.github.phase1geo.minder
+        - org.keepassxc.KeePassXC
+        - org.kde.ktorrent
+        - org.kde.keysmith
+        - org.kde.kig
+        - org.kde.kamoso
+        - org.kde.skanpage
+
+        - org.kde.ktouch
+        - org.kde.kigo
+
+        - com.sayonara_player.Sayonara
+        - org.clementine_player.Clementine
+
+        - com.usebottles.bottles
+        - org.gnome.Boxes
+        
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
         # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
