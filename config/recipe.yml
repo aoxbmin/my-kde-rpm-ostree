@@ -47,6 +47,7 @@ modules:
         - sm.puri.Chatty
         - org.kde.neochat
         - org.kde.tokodon
+        - org.telegram.desktop
 
         - org.mypaint.MyPaint
         - org.kde.krita
