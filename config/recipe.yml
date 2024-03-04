@@ -86,6 +86,7 @@ modules:
 
         - com.sayonara_player.Sayonara
         - org.clementine_player.Clementine
+        - org.atheme.audacious
 
         - com.usebottles.bottles
         - org.gnome.Boxes
