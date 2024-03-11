@@ -25,7 +25,13 @@ modules:
       - distrobox
       - syncthing
       - jetbrains-mono-fonts
+      - lm_sensors
+      - kvkbd
+
       - kate
+      - okular
+      - gwenview
+      - filelight
     remove:
       - firefox # default firefox removed
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
@@ -80,6 +86,8 @@ modules:
         - org.kde.kig
         - org.kde.kamoso
         - org.kde.skanpage
+        - net.scribus.Scribus
+        - org.libreoffice.LibreOffice
 
         - org.kde.ktouch
         - org.kde.kigo
