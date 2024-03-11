@@ -27,6 +27,7 @@ modules:
       - jetbrains-mono-fonts
       - lm_sensors
       - kvkbd
+      - qt5-qtvirtualkeyboard
 
       - kate
       - okular
