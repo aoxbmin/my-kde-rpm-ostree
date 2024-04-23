@@ -29,8 +29,6 @@ modules:
       - kvkbd
       - qt5-qtvirtualkeyboard
 
-      - plasma-workspace-x11
-
       - kate
       - okular
       - gwenview
